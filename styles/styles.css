@@ -1,0 +1,52 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --primary: #3949ab;
+}
+
+main {
+  height: 100vh;
+  padding-top: 20px !important;
+  padding-bottom: 15px !important;
+}
+
+.grid {
+  height: 100%;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  height: 100hv;
+}
+
+.main-form label {
+  margin-bottom: auto;  /* Pushes the rest of the content to the bottom */
+}
+.text-area-wrapper, .busy-view {
+  flex-grow: 1;  /* Allows the Editor/textarea to grow and take up available space */
+  height: 100%;
+  margin-bottom: 50px;
+}
+textarea {
+  margin-bottom: 10px;  /* Optional: Adds a little space before the buttons */
+  height: 100%;
+}
+.main-form button {
+  font-weight: 500;
+  margin: 5px 0;  /* Optional: Adds a little space above and below the buttons */
+}
+
+progress {
+  height: 15px !important;
+}
+
